@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "callingCode";
+    src: url('../font/calling_code/callingCode-Regular.otf') format('opentype'),
+        url('../font/calling_code/callingCode-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Nova Square";
+    src: url('https://fonts.googleapis.com/css?family=Nova Square')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #081615;
+    color: #FFFFFF;
+    font-family: "callingCode";
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+header {
+    width: 1257px;
+    height: 1068px;
+}
+
+.menu {
+    width: 1174px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+.menu a {
+    display: block;
+    min-width: 120px;
+    margin-top: 15px;
+    margin-right: 50px;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    color: #00FF94;
+}
+
+#introduce {
+    margin: 0;
+    padding: 0;
+    width: 1257px;
+    height: 370px;
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50px;
+    
+
+}
+
+#introduce p {
+    font-size: 20px;
+    color: #00FF94;
+    padding-left: 50px;
+    position: relative;
+}
+
+#introduce_name {
+    width: 630px;
+    height: 370px;
+    position: relative;
+    z-index: 5;
+}
+
+#introduce_cv {
+    width: 630px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#intro_cv_radius {
+    position: relative;
+    height: 180px;
+    width: 180px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ellipse {
+    width: 370px;
+    height: 370px;
+    font-size: 20px;
+}
+
+
+.color_grey {
+    font-size: 15px;
+    color: #666666;
+    position: relative;
+}
+
+
+#name {
+    width: 684px;
+    height: 350px;
+    margin-left: 80px;
+    position: relative;
+}
+
+
+#firstname {
+    font-size: 96px;
+    margin-left:15px;
+}
+
+#lastname {
+    font-size: 96px;
+    margin-left: 15px;
+}
+
+#about {
+    margin: 0;
+    padding: 0;
+    width: 1257px;
+}
+
+#about_text {
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    line-height: 25px;
+    position: relative;
+
+}
+
+#line_animation {
+    height: 750px;
+    top: 150px;
+    left: -100px;
+    position: absolute;
+    z-index: auto;
+}
