@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <!--<script src="https://kit.fontawesome.com/9b6645cb81.js" crossorigin="anonymous"></script>-->
     <title>Portfolio REGNIER Marc Développeur Web Junior</title>
 </head>
 
@@ -21,17 +22,17 @@
             </ul>
         </nav>
         <div id="introduce">
-            <div id="introduce_name">
+            <div class="introduce_name">
                 <p><span class="color_grey">&lt;p&gt;</span>Bonjour, je m'appelle<span
                         class="color_grey">&lt;p/&gt;</span>
                 </p>
-                <h1 id="name"><span class="color_grey">&lt;h1&gt;<br></span><strong id="lastname">REGNIER</strong>
+                <h1 class="name"><span class="color_grey">&lt;h1&gt;<br></span><strong id="lastname">REGNIER</strong>
                     <br><strong id="firstname">Marc</strong><br><span class="color_grey">&lt;h1/&gt;</span>
                 </h1>
             </div>
 
-            <div id="introduce_cv">
-                <svg id="ellipse" width="454" height="452" viewBox="0 0 454 452" fill="none"
+            <div class="introduce_cv">
+                <svg class="ellipse" width="454" height="452" viewBox="0 0 454 452" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.1"
                         d="M366.522 186.162L370.893 123.295L356.269 106.486L293.402 102.115L268.174 124.064L331.069 128.409L345.693 145.219L341.294 208.11L366.522 186.162ZM330.661 246.893L169.422 180.396L144.222 202.319L305.462 268.816L330.661 246.893ZM206.734 325.177L143.868 320.806L129.244 303.997L133.614 241.131L108.386 263.079L104.015 325.945L118.639 342.755L181.506 347.125L206.734 325.177Z"
@@ -57,7 +58,7 @@
                     <circle cx="132.075" cy="342" r="6" fill="white" />
                 </svg>
             </div>
-            <svg id="line_animation" width="691" height="619" viewBox="0 0 691 619" fill="none"
+            <svg class="line_animation" width="691" height="619" viewBox="0 0 691 619" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M73.5 20.5H2V233.5C2 314.686 67.8141 380.5 149 380.5H524C605.186 380.5 671 446.314 671 527.5V599"
@@ -77,7 +78,7 @@
         </div>
 
         <div id="about">
-            <div id="about_text">
+            <div class="about_text">
                 <p><span class="color_grey">&lt;p&gt;</span>Je suis Développeur web Junior et je suis un passionné
                     d'informatique notamment dans le développement Web que je trouve trés intéressant et passionnant. Ce
                     que je trouve intéressant dans le développement informatique est le fait de résoudre des problèmes
@@ -99,12 +100,26 @@
             </div>
             <!--slider-->
             <div class="element_portfolio">
-                <div class="image_portfolio">
-                    <img src="" alt="">
+                <div class="carousel-container">
+                    <!--Add Add Preview and Next buttons-->
+                    <!--Add Image-->
+                    <img src="images/holon.png" alt="site immo Holon">
                 </div>
                 <div class="text_portfolio">
+                    <p>I just told you! You've killed me! No, I'm Santa Claus! We don't have a brig. These old Doomsday
+                        Devices are dangerously unstable. I'll rest easier not knowing where they are. Oh yeah, good
+                        luck with that.
 
+                        Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil",
+                        I mean Robot Devil. And by "metaphorically", I mean get your coat. Daylight and everything. This
+                        opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your
+                        characters announce how they feel. That makes me feel angry!</p>
                 </div>
+            </div>
+            <div class="navigation">
+                <div class="prev nav-btn"><</div>
+                <div class="nav-bar"></div>
+                <div class="next nav-btn">></div>
             </div>
         </section>
         <article>
