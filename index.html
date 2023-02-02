@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <!--<script src="https://kit.fontawesome.com/9b6645cb81.js" crossorigin="anonymous"></script>-->
+    
     <title>Portfolio REGNIER Marc Développeur Web Junior</title>
 </head>
 
@@ -100,26 +101,29 @@
             </div>
             <!--slider-->
             <div class="element_portfolio">
-                <div class="carousel-container">
+                <div class="slider">
                     <!--Add Add Preview and Next buttons-->
                     <!--Add Image-->
-                    <img src="images/holon.png" alt="site immo Holon">
+                    <div class="slide current"><img src="images/holon.png" alt="site immo Holon"></div>
+                    <div class="slide"><img src="images/fastburger.png" alt="site perso 1"></div>
+                    <div class="slide"><img src="images/sportbook.png" alt="site perso 2"></div>
                 </div>
                 <div class="text_portfolio">
-                    <p>I just told you! You've killed me! No, I'm Santa Claus! We don't have a brig. These old Doomsday
+                    <p><span class="color_grey">&lt;p&gt;</span>I just told you! You've killed me! No, I'm Santa Claus! We don't have a brig. These old Doomsday
                         Devices are dangerously unstable. I'll rest easier not knowing where they are. Oh yeah, good
                         luck with that.
 
                         Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil",
                         I mean Robot Devil. And by "metaphorically", I mean get your coat. Daylight and everything. This
                         opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your
-                        characters announce how they feel. That makes me feel angry!</p>
+                        characters announce how they feel. That makes me feel angry!<span
+                        class="color_grey">&lt;p/&gt;</span></p>
                 </div>
             </div>
             <div class="navigation">
-                <div class="prev nav-btn"><</div>
+                <button class="prev"><</button>
                 <div class="nav-bar"></div>
-                <div class="next nav-btn">></div>
+                <button class="next">></button>
             </div>
         </section>
         <article>
@@ -156,6 +160,7 @@
     <footer>
 
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
