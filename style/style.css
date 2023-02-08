@@ -178,7 +178,7 @@ header {
     display: flex;
 }
 
-.text_portfolio{
+.text_portfolio {
     width: 579px;
     height: 456px;
     margin-top: 50px;
@@ -187,10 +187,10 @@ header {
     padding-right: 50px;
     padding-top: 15px;
     line-height: 25px;
-    
+
 }
 
-.slider{
+.slider {
     width: 1257px;
     height: 527px;
     position: relative;
@@ -207,9 +207,9 @@ header {
     display: flex;
     opacity: 0;
     transition: opacity 0.5s ease;
-  }
+}
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
 }
@@ -220,7 +220,7 @@ header {
     top: 40%;
     left: 10px;
     font-weight: 700;
-    
+
 }
 
 .navigation .next {
@@ -228,7 +228,7 @@ header {
     font-size: 25px;
     z-index: 10;
     top: 40%;
-    
+
 }
 
 .navigation button {
@@ -237,56 +237,78 @@ header {
     cursor: pointer;
     border: solid 2px #FFFFFF;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 99px;
+    height: 99px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 
 .navigation button:hover {
-    background: white;
+    transform: scale(1.2);
+
+}
+
+.progress_bar {
+    width: 656px;
+    height: 11px;
+    -webkit-appearance: none;
+    appearance: none;
+    z-index: 10;
+}
+
+.progress_bar::-webkit-progress-bar {
+    background-color: #666666;
     
 }
 
-.nav-bar{
-    width: 656px;
-    height: 11px;
+.progress_bar::-webkit-progress-value {
     background-color: #00FF94;
-    z-index: 10;
+    transition: width 0.5s ease;
+    
+}
+
+.progress_bar::-moz-progress-bar {
+    background-color: #00FF94;
+    transition: width 0.5s ease;
 }
 
 .slide.current {
     opacity: 1;
-  }
+}
 
-.image img{
+.image img {
     border-radius: 50%;
     height: 500px;
     width: 500px;
 }
 
-.text_slide{
+.text_slide {
     margin-top: 55px;
     width: 500px;
     height: 600px;
     padding: 20px;
     line-height: 25px;
     margin-left: -50px;
-  }
+}
 
-.line_animation2{
+.line_animation2 {
     position: absolute;
     left: 750px;
     top: 1550px;
     height: 750px;
 }
 
-.site_title{
+.site_title {
     color: #00FF94;
     font-size: 30px;
+}
+
+i {
+    color: #00FF94;
 }
