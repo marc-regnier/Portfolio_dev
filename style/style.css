@@ -365,7 +365,7 @@ header {
 }
 
 .network {
-    height: 650px;
+    height: 750px;
     width: 1000px;
 }
 
@@ -427,4 +427,115 @@ a {
     margin-left: 850px;
     margin-top: 250px;
 
+}
+
+.form_container{
+    width: 1257px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_container h4{
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.form_contact{
+    border: solid 2px #00FF94;
+    border-radius: 20px;
+    width: 775px;
+    padding: 50px;
+
+}
+
+.lname_form{
+    font-size: 25px;
+}
+
+.fname_form{
+    font-size: 25px;
+}
+
+.email_form{
+    font-size: 25px;
+}
+
+.phone_form{
+    font-size: 25px;
+}
+
+#lname{
+    background-color: #666666;
+    width: 370px;
+    height: 35px;
+}
+
+#fname{
+    background-color: #666666;
+    width: 370px;
+    height: 35px;
+}
+
+#email{
+    background-color: #666666;
+    width: 370px;
+    height: 35px;
+}
+
+#phone{
+    background-color: #666666;
+    width: 370px;
+    height: 35px;
+}
+
+.form_line{
+    display: flex;
+}
+
+.form_line2{
+    display: flex;
+}
+
+.message{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+textarea{
+    background-color: #666666;
+    width: 760px;
+    height: 150px;
+}
+
+.button_submit{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    border: solid 2px #00FF94;
+    height: 50px;
+    width: 180px;
+    font-size: 25px;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.list_footer{
+    display: flex;
+}
+
+.list_footer li{
+    list-style: none;
+    margin-right: 10px;
 }
